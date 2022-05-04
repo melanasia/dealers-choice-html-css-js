@@ -1,0 +1,116 @@
+/*body {*/
+/*  content: ' ';*/
+/*  display: block;*/
+/*  position: absolute;*/
+/*  left: 0;*/
+/*  top: 0;*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  margin-top: 0px;*/
+/*  margin-left: 50px;*/
+/*}*/
+
+* {
+  font-family: arial;
+}
+
+#wrapper {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.dropdown-button {
+  background-color: hotpink;
+  font-weight: bold;
+  border-radius: 25px;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-button:hover, .dropdown-button:focus {
+  background-color: green;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  background-color: pink;
+  border-radius: 25px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: gray;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+/*---*/
+
+/*#dest-wrapper {*/
+  /* display: flex;*/
+/*  margin-top: 5rem;*/
+  
+/*}*/
+
+.destination {
+  position: relative;
+  left: 400px;
+  margin: 1rem;
+  border-color: orange;
+  border-style: solid;
+  border-width: 3px;
+  background-color: lightblue;
+  border-radius: 25px;
+  width: fit-content;
+  padding: 20px 50px 20px 50px;
+  text-align: left;
+}
+
+/*.destination-one {*/
+   /* margin-left: 30%;*/
+   
+/*}*/
+
+/*.destination-two {*/
+   
+/*}*/
+
+/*.destination-three {*/
+  /* margin-right:30%; */
+   
+/*}*/
+
+
+.essayBox {
+  height: 100px;
+  width: 500px;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
